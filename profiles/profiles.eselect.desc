@@ -1,0 +1,30 @@
+# profiles.eselect.example - Example profiles.eselect.desc file
+
+# The 'Type' column specifies the type of profile.
+# Currently supported types are arch, build, flavor, mix-ins, and 2008.
+
+# The 'Name' column contains the path to the profile relative to "${PORTDIR}/profiles"
+
+# The 'Status' column is used to indicate the status of the profile.
+
+# The 'NoMix' column should contain a comma separated list profiles that should not be mixed with that profile
+# Must specify with path from type. Ex: 'flavor/desktop' , 'arch/x86-32bit' , ect ...
+
+# *** Note that the entries in NoMix are ficticious and only for example of how to use ***
+
+# Type		Name							Status		NoMix
+
+#arch		funtoo/1.0/linux-gnu/arch/x86-32bit			testing
+#arch		funtoo/1.0/linux-gnu/arch/x86-64bit			testing
+
+#build		funtoo/1.0/linux-gnu/build/stable			    testing
+#build		funtoo/1.0/linux-gnu/build/current			    testing
+#build		funtoo/1.0/linux-gnu/build/experimental			testing
+
+flavor		funtoo/1.0/linux-gnu/flavor/minimal-systemd			    testing
+flavor		funtoo/1.0/linux-gnu/flavor/core-systemd			    testing
+flavor		funtoo/1.0/linux-gnu/flavor/workstation-systemd			testing		
+flavor		funtoo/1.0/linux-gnu/flavor/server-systemd			    testing		
+
+mix-ins      funtoo/1.0/linux-gnu/mix-ins/web-control    testing		
+
