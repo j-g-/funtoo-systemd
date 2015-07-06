@@ -61,3 +61,8 @@ you can set any of these flavors with:
 # eselect profile <num>
 ```
 
+Then doing a <code>@world</code> upgrade will install systemd and remove eudev
+```shell
+# emerge -avuDN @world
+```
+
