@@ -1,0 +1,7 @@
+
+# J. García  <jyo.garcia@yahoo.com> (6 Jul 2015) from gentoo : 
+# Mike Gilbert <floppym@gentoo.org> (19 Jun 2015)
+# Masked until all libgudev providers have been updated, bug 552036.
+~sys-fs/udev-221
+~sys-apps/systemd-221
+~virtual/libgudev-230
