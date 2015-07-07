@@ -56,11 +56,6 @@ pkg_setup(){
 src_prepare() {
 	epatch_user
 	eautoreconf
-
-	pushd  ${S}/tools
-	einfo "Insalling nodejs packages"
-	npm install || die "Couldn't install nodejs modules"
-	popd 
 }
 
 src_configure() {
