@@ -26,7 +26,7 @@ REQUIRED_USE="maintainer-mode debug"
 DEPEND=">=net-libs/libssh-0.6[server]
 		>=dev-libs/json-glib-1.0.0
 		>=sys-auth/polkit-0.105
-		sys-apps/systemd[gudev]
+		virtual/libgudev[systemd]
 		sys-fs/lvm2
 		app-crypt/mit-krb5
 		dev-util/gdbus-codegen
