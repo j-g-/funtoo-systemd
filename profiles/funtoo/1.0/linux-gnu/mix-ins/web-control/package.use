@@ -1,12 +1,6 @@
 # Cockpit required USE flags chages 
-# required by sys-apps/cockpit-0.63::funtoo-systemd
-# required by @system
-# required by @world (argument)
-=sys-apps/systemd-220-r2 gudev
-# required by sys-apps/cockpit-0.63::funtoo-systemd
-# required by @system
-# required by @world (argument)
-=net-libs/libssh-0.7.0-r1 server
+# required by >=sys-apps/cockpit-0.63::funtoo-systemd
+>=net-libs/libssh-0.7.0-r1 server
 
 sys-fs/lvm2 -static
 
