@@ -1,0 +1,4 @@
+net-misc/openssh
+sys-apps/util-linux
+sys-power/upower
+sys-apps/hwids
