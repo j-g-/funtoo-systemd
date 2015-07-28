@@ -9,7 +9,7 @@ inherit user pam autotools eutils
 KEYWORDS="~amd64 ~x86"
 DESCRIPTION="Server Administration Web Interface "
 HOMEPAGE="http://cockpit-project.org/"
-SRC_URI="https://github.com/cockpit-project/${PN}/releases/download/${PV}/${P}.tar.bz2"
+SRC_URI="https://github.com/cockpit-project/${PN}/releases/download/${PV}/${P}.tar.gz"
 
 if [[ ${PV} == 9999* ]] ; then
 	inherit git-r3
