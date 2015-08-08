@@ -14,6 +14,7 @@ else
 fi
 
 sync_with_gentoo() {
+    update_repos
     for package in  $(cat scripts/from_gentoo.txt) ; do
         local forked_on_funtoo=0
         if [[ -d $FUNTOO_REPO/$package || -d $GNOME_REPO/$package ]] ; then
